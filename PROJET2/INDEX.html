@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
     <title>Document</title>
-</head>
-<body>
-     <header>
-        <h1>Sign up/Sign in</h1>
-        <p>HIBA</p>
-        <P>HIBA</P>
-        <P id="p1">HIBA</P>
-     </header>
-     <main>
-        <label for="username-input">Username</label>
-        <input type="text" name="Username" id="usename-input">
-        <label for="lastname-input">Lastname</label>
-        <input type="text" id="lastname-input">
-        <label for="age-input">Age</label>
-        <input type="number" id="age-input">
-        <label for="email-input">Email</label> 
-        <input type="email" id="email-input">
-        <label for="address-input">Address</label>
-        <input type="text" id="address-input">
+  </head>
+  <body>
+    <header>
+      <div id="hr1">
+        <h1 class="h1class">Sign up/Sign in</h1>
+      </div>
+    </header>
+    <main>
+      <form action="">
+        <label for="username-input">Username:</label>
+        <input
+          type="text"
+          name="Username"
+          id="usename-input"
+          placeholder="enter your username"
+        /><br />
+        <label for="lastname-input">Lastname:</label>
+        <input
+          type="text"
+          id="lastname-input"
+          placeholder="enter your lastname"
+        /><br />
+        <label for="age-input">Age:</label>
+        <input
+          type="number"
+          id="age-input"
+          placeholder="enter your age"
+        /><br />
+        <label for="email-input">Email:</label>
+        <input
+          type="email"
+          id="email-input"
+          placeholder="enter your email"
+        /><br />
+        <label for="address-input">Address:</label>
+        <input
+          type="text"
+          id="address-input"
+          placeholder="enter your address"
+        /><br />
+        <label for="select"> Situation Familiale </label>
         <select name="" id="select">
-            <option value="1">célibataire</option>
-            <option value="2">marié(e)</option>
-        </select>
-        
-     </main>
-     <footer></footer>
-</body>
+          <option value="1">célibataire</option>
+          <option value="2">marié(e)</option></select
+        ><br />
+      </form>
+      <button>créer mon compte</button>
+    </main>
+    <footer></footer>
+  </body>
 </html>

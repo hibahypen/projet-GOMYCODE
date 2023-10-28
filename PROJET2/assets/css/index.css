@@ -1,11 +1,53 @@
-h1{
-    color: purple;
-    background-color: beige;
+#hr1 .h1class {
+  color: purple;
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
 }
-P{
-    color: blue;
-    background-color: brown;
+P {
+  color: blue;
+  background-color: brown;
 }
-#p1{
-    color: aqua;
+#p1 {
+  color: aqua;
+}
+label {
+  font-weight: 900;
+  text-decoration: underline;
+  background-color: black;
+  color: red;
+  font-size: 1.2em;
+}
+select {
+  font-weight: 200;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  display: block;
+  width: 200px;
+}
+option {
+  background-color: black;
+  font-style: italic;
+  border: 2px black solid;
+}
+button {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 50px;
+
+}
+button:hover{
+background-color: red;
+color: black;
+cursor: pointer;
+}
+input::placeholder {
+  font-size: 16px;
+}
+input {
+  display: block;
+  font-size: 18px;
 }

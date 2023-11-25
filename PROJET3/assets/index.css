@@ -1,0 +1,16 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 10px;
+    justify-content: center;
+
+}
+main > div {
+    background-color: darkgray;
+    justify-self: stretch;
+}
+#sin1 {
+    grid-row-start: 2;
+}

@@ -3,6 +3,8 @@
   background-color: white;
   text-align: center;
   font-size: 50px;
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+  font-family: 'Noto Sans JP', sans-serif;
 }
 P {
   color: blue;
@@ -46,8 +48,10 @@ cursor: pointer;
 }
 input::placeholder {
   font-size: 16px;
+  padding-left: 15px;
 }
 input {
   display: block;
   font-size: 18px;
+  border-radius: 10px;
 }
